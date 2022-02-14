@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&family=Lato:wght@400;700;900&family=M+PLUS+1p:wght@100;500;800;900&family=Oswald:wght@500;700&family=Pacifico&display=swap");
+/* ================ Св-во важное для всех файлов=========================== */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* -======================================================================== */
+/* --------------------Foter------------------------------------------------------------------------------------------------ */
+.log {
+	padding: 30px;
+	text-align: center;
+}
+.nav {
+	font-family: "Oswald", sans-serif;
+	font-size: 20px;
+	font-style: oblique;
+	font-weight: 700;
+	color: rgb(54, 28, 28);
+	text-align: center;
+	display: inline-block;
+	padding: 0 10px 0 0;
+	margin: 0 10px 30px 10px;
+	border-radius: 10%;
+	text-transform: none;
+}
+nav.nav {
+	background-color: rgb(89, 181, 84);
+	border: 1px solid rgb(32, 39, 32);
+	box-shadow: 10px -10px 1px 1px rgb(58, 144, 5);
+}
+/* ------------------- Body ------------------------------------------------------------------------------------------------ */
+.wrapper {
+	font-family: "Merriweather", serif;
+	width: 1300px;
+	margin: 0 auto;
+	line-height: 1.7;
+	text-indent: 25px;
+}
+h1 {
+	font-family: "Oswald", sans-serif;
+	font-weight: 500;
+	font-size: 40px;
+}
+h2 {
+	font-family: "Merriweather", serif;
+	font-style: oblique;
+	font-weight: 900;
+	color: rgb(63, 85, 196);
+	font-size: 30px;
+	text-align: center;
+}
+.list {
+	background-color: rgb(206, 223, 216);
+	width: 500px;
+	padding: 0 10px 0 100px;
+	margin: 0 auto 35px auto;
+	border: 5px double gray;
+	outline: 5px dotted rgb(162, 62, 152);
+	line-height: 2;
+}
+.naverh {
+	font-size: 20px;
+	text-decoration: underline;
+	color: rgb(12, 11, 10);
+	display: inline-block;
+	padding: 20px;
+	background-color: rgba(157, 56, 56, 0.809);
+	border-radius: 10px;
+	outline: 5px solid rgb(162, 85, 54);
+	text-transform: none;
+	margin: 0 500px 35px 500px;
+}
+.list p {
+	font-family: "Oswald", sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	text-shadow: 1px 1px 1px gold;
+}
+
+.punt .foto {
+	text-align: center;
+	text-indent: 0;
+	width: 750px;
+	margin: 0 auto 35px auto;
+}
+.punt {
+	margin: 0 0 50px 0;
+}
+.zagolovok {
+	margin: 0 0 35px 0;
+}
+.foto-1 {
+	border-radius: 50%;
+	overflow: hidden;
+	width: 600px;
+	height: 450px;
+	border: 10px solid gold;
+	outline: 20px dashed gray;
+}
+.foto-1 img {
+	height: 450px;
+}
+.foto-2 {
+	border-radius: 20px 20px 0 0;
+	border: 10px dotted rgb(155, 56, 142);
+	overflow: hidden;
+	width: 750px;
+}
+.foto-3 {
+	border-top: 20px solid fuchsia;
+	border-bottom: 20px double darkblue;
+	box-shadow: 1px 1px 50px 100px hotpink;
+}
+.foto-4 {
+	border: 10px dashed palevioletred;
+	overflow: hidden;
+	opacity: 0.5;
+}
+.foto-5 {
+	border-radius: 30px 20px 150px 150px;
+	overflow: hidden;
+}
+.foto-6 {
+	border-radius: 180px 20px 180px 20px;
+	overflow: hidden;
+	outline: 5px solid plum;
+}
+
+.foto-7 {
+	border-radius: 20px;
+	overflow: hidden;
+	outline: 5px solid rgb(160, 221, 182);
+}
+.foto-8 {
+	border-radius: 180px 20px 180px 180px;
+	overflow: hidden;
+	outline: 5px solid rgb(78, 47, 78);
+}
+.foto-9 {
+	border-radius: 180px 20px 180px 20px;
+	overflow: hidden;
+	outline: 5px dotted rgb(129, 150, 33);
+}
+.foto-10 {
+	border-radius: 150px;
+	overflow: hidden;
+	outline: 10px solid rgb(35, 98, 115);
+	box-shadow: 30px 20px 10px 15px lightcoral;
+}
+.net {
+	visibility: hidden;
+}
+/* -------------------Footer ---------------------------------------------------------------------------------------------- */
+.footer {
+	font-size: 15px;
+	color: black;
+	width: 100%;
+	background-color: grey;
+	height: 50px;
+	margin: 0 auto 300px auto;
+	padding: 20px;
+	text-align: center;
+	height: 80px;
+}
+
+/* =========================== Задание № 2 по Фигма====================================== */
+@font-face {
+	font-family: CircularStd;
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: CircularStd;
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: CircularStd;
+	src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: CircularStd;
+	src: url("../fonts/CircularStd-Black.woff2") format("woff2"), url("../fonts/CircularStd-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+.wrapper-1 {
+	font-family: "CircularStd", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #5f5f5f;
+	max-width: 1300px;
+	margin: 0 auto;
+	line-height: 1.25;
+}
+.zagolovok-1 h1 {
+	font-weight: 900;
+	color: #313131;
+	font-size: 65px;
+}
+.zagolovok-1 {
+	padding: 10px;
+}
+.blok-1 {
+	text-align: center;
+	width: 750px;
+	margin: 0 auto;
+}
+.zagolovok-2 h2 {
+	font-family: "CircularStd", sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 34px;
+	color: #313131;
+}
+.zagolovok-2 {
+	padding: 10px;
+}
+
+.blok-2 {
+	margin-left: 0;
+	width: 500px;
+	height: 400px;
+	text-align: center;
+	padding: 183px 0 30px 0;
+}
+.blok-3 {
+	width: 200px;
+	height: 70px;
+	font-size: 18px;
+	margin-left: 0;
+	padding: 100px 0 150px 5px;
+}
+.text-3 {
+	color: #b8b8b8;
+}
+.trener {
+	margin-left: 0;
+}
